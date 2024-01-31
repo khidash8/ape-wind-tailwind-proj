@@ -1,3 +1,5 @@
+import MeImg from "../assets/myself.jpg";
+
 const AboutMe = () => {
   return (
     <div className="bg-gray-200 pb-12 lg:text-center">
@@ -7,7 +9,7 @@ const AboutMe = () => {
         </h2>
 
         <img
-          src="https://scontent.fcok2-1.fna.fbcdn.net/v/t39.30808-6/415725570_7223352844374257_7573965800986791767_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=rWIKK4Qb2EQAX_8n4y3&_nc_ht=scontent.fcok2-1.fna&oh=00_AfAW-3HWRfzcs5vskWwnP5ihfI0BwaY3fMdGtc0uCbdeYQ&oe=65A2A032"
+          src={MeImg}
           alt="khidash muhammed"
           className="m-auto inline-block h-64 w-64 rounded-full text-center shadow-2xl"
         />
